@@ -1,37 +1,43 @@
 # Log Query Interface
 
-Foobar is a Python library for dealing with word pluralization.
+This Node.js program allows users to search through log files based on search queries or apply filters.
+
+## Requirements
+
+Node.js installed on your machine.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+• Clone or download this repository to your local machine.
 
-```bash
-pip install foobar
-```
+• Navigate to the project directory in your terminal.
 
 ## Usage
 
-```python
-import foobar
+• Open a terminal window and navigate to the project directory.
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+• Run the following command to install dependencies:
+```bash
+npm install
 ```
 
-## Contributing
+• Once dependencies are installed, you can run the program using the following command:
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+```bash
+node main.js
+```
 
-Please make sure to update tests as appropriate.
+• Follow the prompts to enter search queries or apply filters to search through log files.
+
+## Sample Queries
+• To search logs with a specific level: level=error
+
+• To search logs with a specific message: log_string=Failed to connect
+
+• To filter logs between specific timestamps: Enter timestamps in the format YYYY-MM-DDTHH:mm:ssZ
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the MIT License - see the [MIT](https://choosealicense.com/licenses/mit/) file for details
+
+Feel free to customize this README according to your project's specific requirements and details.
